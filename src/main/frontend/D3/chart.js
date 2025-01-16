@@ -1,4 +1,4 @@
-import * as d3 from 'd3';
+import * as d3 from '../d3.min.js';
 
 window.renderChart = function(data) {
   // Dimensiones y márgenes del gráfico

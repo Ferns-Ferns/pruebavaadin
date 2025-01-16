@@ -29,7 +29,7 @@ import java.util.*;
 @PageTitle("Tabla de puntuaciones")
 @Route("ScoreCard")
 @Menu(order = 1, icon = LineAwesomeIconUrl.FILE)
-@JavaScript("./D3/chart.js")
+@JavaScript("./D3/chart2.js")
 public class ScoreCardsView extends VerticalLayout {
 
     public ScoreCardsView(scoreCardService scoreCardService, studentService studentService) throws JsonProcessingException {
